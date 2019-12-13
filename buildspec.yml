@@ -16,7 +16,7 @@ phases:
   post_build:
     commands:
       - echo post_build
-	  - mv target/deploy ./
+      
 artifacts:
   files:
      - target/03-spring-boot-web-application-h2-0.0.1-SNAPSHOT.war
